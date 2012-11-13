@@ -1,3 +1,6 @@
+
+
+
 import java.io.Serializable;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
@@ -53,6 +56,7 @@ public class gestion {
 		float moy=(tableau.get(tableau.size()-1).eventMontant)-(tableau.get(tableau.size()-2).eventMontant);
 		System.out.println(moy+"€");
 		int k;
+		//On découpe le string date en jour date année grace au séparateur /
 		String tab_last[] = tableau.get(tableau.size()-1).dateEvent.split("/");
 		String tab_firstbefore[] = tableau.get(tableau.size()-2).dateEvent.split("/");
 		
