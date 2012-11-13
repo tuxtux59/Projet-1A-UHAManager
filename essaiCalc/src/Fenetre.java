@@ -1,3 +1,7 @@
+
+
+
+
 import java.awt.*;
 import java.util.ArrayList;
 
@@ -10,6 +14,8 @@ import javax.swing.JLabel;
 import javax.swing.JPanel;
 import javax.swing.JScrollPane;
 import javax.swing.JTabbedPane;
+
+
 
 
 import java.awt.event.ItemEvent;
@@ -148,12 +154,12 @@ public class Fenetre extends JFrame{
 	}
 		class ItemState implements ItemListener{
 			public void itemStateChanged(ItemEvent e){
-				System.out.println("evenement sur : "+e.getItem());
+				/*System.out.println("evenement sur : "+e.getItem());
 				if(e.getItem()=="ENSCMu"){
 					System.out.println("Vous n'êtes pas de l'ENSISA!!");
 					
 					tab = new String[] {"Chinois","Anglais"};
-				}
+				}*/
 			}
 
 			
